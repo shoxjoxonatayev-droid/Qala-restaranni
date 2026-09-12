@@ -1,0 +1,6 @@
+{
+  "name": "Qal'a Restorani",
+  "description": "Qadimiy Xiva qal'asi uslubidagi asl o'zbek milliy taomlari restorani veb-sayti",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

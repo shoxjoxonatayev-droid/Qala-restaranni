@@ -1,0 +1,177 @@
+import { MenuItem } from '../../types';
+
+export const PIZZA_PIDE_ITEMS: MenuItem[] = [
+  {
+    id: 'pizza-1',
+    name: {
+      uz: 'Sabzavotli pitsa',
+      ru: 'Овощная пицца (Вегетарианская)',
+      en: 'Vegetarian Garden Pizza',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Shirin bolgar qalampiri, pomidor, shampinyon qo‘ziqorini, zaytun va erigan mozzarella.',
+      ru: 'Болгарский перец, спелые томаты, шампиньоны, маслины и сыр моцарелла.',
+      en: 'Sweet bell peppers, ripe tomatoes, mushrooms, olives, and melted mozzarella.',
+    },
+    price: 65000,
+    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '32 sm', ru: '32 см', en: '32 cm' },
+  },
+  {
+    id: 'pizza-2',
+    name: {
+      uz: 'Pepperoni pitsa',
+      ru: 'Пицца Пепперони',
+      en: 'Pepperoni Pizza',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Achchiqroq dudlangan sifatli pepperoni kolbasasi, quyuq pomidor sousi va mozzarella.',
+      ru: 'Пикантная острая колбаска пепперони, густой томатный соус и тягучая моцарелла.',
+      en: 'Spicy cured pepperoni slices, rich herb tomato marinara, and gooey mozzarella.',
+    },
+    price: 80000,
+    image: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'Hit', ru: 'Хит', en: 'Popular' },
+    portion: { uz: '32 sm', ru: '32 см', en: '32 cm' },
+  },
+  {
+    id: 'pizza-3',
+    name: {
+      uz: 'Margarita pitsa',
+      ru: 'Пицца Маргарита',
+      en: 'Classic Margherita Pizza',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Klassik italyancha yupqa xamir, sara pomidor bo‘laklari, rayhon va nozik mozzarella.',
+      ru: 'Традиционное тонкое тесто, спелые томаты, ароматный базилик и сыр моцарелла.',
+      en: 'Authentic thin crust, San Marzano tomato sauce, fresh basil, and mozzarella.',
+    },
+    price: 60000,
+    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '32 sm', ru: '32 см', en: '32 cm' },
+  },
+  {
+    id: 'pizza-4',
+    name: {
+      uz: 'Go‘shtli pitsa',
+      ru: 'Мясная пицца',
+      en: 'Meat Lovers Pizza',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Mayin mol go‘shti, qazi, tovuq go‘shti, qizil piyoz va erigan pishloq.',
+      ru: 'Сытная пицца с сочной говядиной, казы, кусочками курицы и сыром.',
+      en: 'Loaded with seasoned beef, authentic kazy, chicken chunks, and melted cheese.',
+    },
+    price: 85000,
+    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'To‘yimli', ru: 'Сытная', en: 'Hearty' },
+    portion: { uz: '32 sm', ru: '32 см', en: '32 cm' },
+  },
+  {
+    id: 'pizza-5',
+    name: {
+      uz: 'Sezar pitsa',
+      ru: 'Пицца Цезарь',
+      en: 'Caesar Chicken Pizza',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Mayin tovuq go‘shti, aysberg barglari, cherri pomidor, parmezan va maxsus sezar sousi.',
+      ru: 'Нежное куриное филе, хрустящий айсберг, черри, пармезан и соус цезарь.',
+      en: 'Tender chicken breast, crisp iceberg, cherry tomatoes, parmesan, and Caesar drizzle.',
+    },
+    price: 80000,
+    image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '32 sm', ru: '32 см', en: '32 cm' },
+  },
+  {
+    id: 'pizza-6',
+    name: {
+      uz: 'Steyk pitsa',
+      ru: 'Стейк-пицца премиум',
+      en: 'Steak Gourmet Pizza',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Grilda pishirilgan mayin mol go‘shti steyki bo‘laklari, karamellangan piyoz va mozzarella.',
+      ru: 'Ломтики отборного говяжьего стейка с гриля, карамелизованный лук и сыр моцарелла.',
+      en: 'Grilled tender beef steak slices, caramelized onions, herbs, and bubbly mozzarella.',
+    },
+    price: 90000,
+    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'Premum', ru: 'Премиум', en: 'Premium' },
+    portion: { uz: '32 sm', ru: '32 см', en: '32 cm' },
+  },
+  {
+    id: 'pide-1',
+    name: {
+      uz: 'Pishloqli pide',
+      ru: 'Сырное пиде (Kaşarlı)',
+      en: 'Cheese Pide Flatbread',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Qayiq shaklidagi qarsildoq turk pidesi, ichida saxovatli erigan pishloq bilan.',
+      ru: 'Традиционное турецкое лодочка-пиде с обильной начинкой из тягучего сыра.',
+      en: 'Crispy boat-shaped flatbread packed with gooey golden melted cheese.',
+    },
+    price: 55000,
+    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+  {
+    id: 'pide-2',
+    name: {
+      uz: 'Kolbasali pide',
+      ru: 'Пиде с колбасками (Sucuklu)',
+      en: 'Sausage & Cheese Pide',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Dudlangan kolbasa va erigan pishloq bilan pechda qizartirilgan pide.',
+      ru: 'Лодочка-пиде с пряными колбасками и расплавленным сыром.',
+      en: 'Oven-baked pide boat with spiced sausage and creamy melted cheese.',
+    },
+    price: 65000,
+    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+  {
+    id: 'pide-3',
+    name: {
+      uz: 'Go‘shtli pide',
+      ru: 'Мясное пиде (Kuşbaşılı)',
+      en: 'Diced Beef Pide',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Mayda to‘g‘ralgan shirali mol go‘shti, pomidor, bulg‘ori va pishloq.',
+      ru: 'Сочные кусочки отборной говядины с томатами, перчиком и сыром в хрустящем тесте.',
+      en: 'Tender diced beef pieces sautéed with peppers, tomatoes, and baked to perfection.',
+    },
+    price: 75000,
+    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+  {
+    id: 'pide-4',
+    name: {
+      uz: 'Qiyma bilan pide',
+      ru: 'Пиде с мясным фаршем (Kıymalı)',
+      en: 'Minced Meat Pide',
+    },
+    category: 'pizza_pide',
+    description: {
+      uz: 'Ziravorlangan mol qiymasi, mayda piyoz va pomidor bilan to‘ldirilgan qaynoq pide.',
+      ru: 'Ароматный говяжий фарш с луком, специями и зеленью в тонком хрустящем тесте.',
+      en: 'Rich seasoned minced beef with onions and herbs baked in a crispy crust.',
+    },
+    price: 70000,
+    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+];

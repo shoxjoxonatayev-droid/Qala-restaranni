@@ -1,0 +1,161 @@
+import { MenuItem } from '../../types';
+
+export const XAMIRLI_ITEMS: MenuItem[] = [
+  {
+    id: 'xamirli-1',
+    name: {
+      uz: 'Barak assorti',
+      ru: 'Ассорти хорезмских бараков',
+      en: 'Khorezm Barak Assorted Feast',
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Tuxum barak, qatir barak, qadi barak va ko‘k baraklarning barchasini o‘z ichiga olgan shohona tovoq.',
+      ru: 'Праздничное блюдо со всеми традиционными видами бараков: тухум, катыр, кади и кук барак.',
+      en: 'Grand celebratory tasting platter featuring all types of authentic Khorezm barak dumplings.',
+    },
+    price: 110000,
+    image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'Assorti', ru: 'Ассорти', en: 'Assorted' },
+    portion: { uz: 'Katta tovoq', ru: 'Большое блюдо', en: 'Large platter' },
+  },
+  {
+    id: 'xamirli-2',
+    name: {
+      uz: 'Shivit oshi',
+      ru: 'Хорезмский Шивит оши',
+      en: 'Khiva Shivit Oshi (Dill Noodles)',
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Yangi shivit sharbati bilan qorilgan zumrad rangli xamir, mol go‘shtli sershira qayla va suzma bilan.',
+      ru: 'Знаменитая изумрудная лапша, замешанная на соке свежего укропа, с мясной подливкой и сузьмой.',
+      en: 'Signature vibrant green handmade noodles infused with fresh dill, tender beef goulash, and chilled suzma.',
+    },
+    price: 40000,
+    image: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'Xiva iftixori', ru: 'Гордость Хивы', en: 'Khiva Signature' },
+    portion: { uz: '400 gr', ru: '400 гр', en: '400 g' },
+  },
+  {
+    id: 'xamirli-3',
+    name: {
+      uz: 'Qatir barak',
+      ru: 'Катыр барак с мясом',
+      en: 'Qatir Barak Meat Dumplings',
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Mayin xamir ichida shirali mol go‘shti va piyoz qiymasi bilan pishirilgan xonaki barak.',
+      ru: 'Нежное тонкое тесто с сочным мясным фаршем из отборной говядины и лука.',
+      en: 'Classic handmade Khorezm dumplings stuffed with seasoned minced beef and sweet onions.',
+    },
+    price: 35000,
+    image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '350 gr', ru: '350 гр', en: '350 g' },
+  },
+  {
+    id: 'xamirli-4',
+    name: {
+      uz: 'Tuxum barak',
+      ru: 'Тухум барак (с яйцом)',
+      en: 'Tuxum Barak (Egg Stuffed)',
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Xorazmning mashhur sirli taomi — yupqa xamir ichiga quyilgan tuxum, sut va sariyog‘li qaynoq barak.',
+      ru: 'Уникальное хорезмское блюдо: тончайшие конвертики теста с нежнейшей яично-молочной начинкой.',
+      en: 'Centuries-old Khiva secret recipe: delicate pasta envelopes filled with silky egg and milk custard.',
+    },
+    price: 35000,
+    image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'Noyob', ru: 'Уникальное', en: 'Unique' },
+    portion: { uz: '350 gr', ru: '350 гр', en: '350 g' },
+  },
+  {
+    id: 'xamirli-5',
+    name: {
+      uz: 'Ushoq barak',
+      ru: 'Ушок барак',
+      en: 'Ushoq Mini Dumplings',
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Mayda qo‘lda tugilgan go‘shtli jajji baraklar, sariyog‘ va shivit bilan tortiladi.',
+      ru: 'Крошечные нежные пельмешки ручной лепки со сливочным маслом и зеленью.',
+      en: 'Petite bite-sized handcrafted meat dumplings tossed in melted golden butter.',
+    },
+    price: 32000,
+    image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '320 gr', ru: '320 гр', en: '320 g' },
+  },
+  {
+    id: 'xamirli-6',
+    name: {
+      uz: 'Qadi barak',
+      ru: 'Кади барак (с тыквой)',
+      en: 'Qadi Barak (Pumpkin Dumplings)',
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Shirin xushbo‘y qovoq va piyoz nachinkasi bilan tayyorlangan mayin Xorazm baragi.',
+      ru: 'Ароматные бараки с начинкой из сладкой тыквы и золотистого лука.',
+      en: 'Delicate dumplings filled with naturally sweet local pumpkin and sautéed onions.',
+    },
+    price: 30000,
+    image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '350 gr', ru: '350 гр', en: '350 g' },
+  },
+  {
+    id: 'xamirli-7',
+    name: {
+      uz: 'Ko‘k barak',
+      ru: 'Кук барак (с зеленью)',
+      en: 'Kok Barak (Spring Herb Dumplings)',
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Yalpiz, ismaloq, shivit va turfa xil bahoriy sarxil ko‘katlar bilan to‘ldirilgan barak.',
+      ru: 'Весенние бараки с начинкой из ароматной зелени: мята, шпинат, укроп.',
+      en: 'Fresh herbal dumplings packed with wild mint, spinach, dill, and fragrant greens.',
+    },
+    price: 30000,
+    image: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '350 gr', ru: '350 гр', en: '350 g' },
+  },
+  {
+    id: 'xamirli-8',
+    name: {
+      uz: 'Kapshirma',
+      ru: 'Хорезмская капширма',
+      en: 'Khorezm Kapshirma Pastry',
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Qarsildoq qabariq yupqa xamir ichida shirali go‘shtli cheburek uslubidagi Xorazmcha pishiriq.',
+      ru: 'Хрустящий золотистый хорезмский пирожок с сочной мясной начинкой и зеленью.',
+      en: 'Crisp deep-fried flaky turnover bursting with seasoned minced meat juices.',
+    },
+    price: 28000,
+    image: 'https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '2 dona', ru: '2 шт', en: '2 pcs' },
+  },
+  {
+    id: 'xamirli-9',
+    name: {
+      uz: 'Qala mix assorti',
+      ru: 'Микс-ассорти «Qal‘a»',
+      en: "Qal'a Grand Dough & Meat Mix",
+    },
+    category: 'xamirli',
+    description: {
+      uz: 'Restoranning eng hashamatli xamirli va go‘shtli taomlari, shivit oshi, baraklar va kapshirmalar jamlanmasi.',
+      ru: 'Королевский набор: шивит оши, все виды бараков, капширма и соусы для большой компании.',
+      en: "The Emperor's feast: shivit oshi, variety of baraks, crispy kapshirma, and artisanal dips for a gathering.",
+    },
+    price: 280000,
+    image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'Shohona', ru: 'Королевское', en: 'Grand Feast' },
+    portion: { uz: '4-6 kishi', ru: '4-6 персон', en: '4-6 persons' },
+  },
+];

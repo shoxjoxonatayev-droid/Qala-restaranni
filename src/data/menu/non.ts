@@ -1,0 +1,193 @@
+import { MenuItem } from '../../types';
+
+export const NON_ITEMS: MenuItem[] = [
+  {
+    id: 'non-1',
+    name: {
+      uz: 'Non assorti',
+      ru: 'Хлебное ассорти',
+      en: 'Bread Platter Assorted',
+    },
+    category: 'non',
+    description: {
+      uz: 'Tandirdan yangi uzilgan turli xil issiq xonaki nonlar, patir va qatlama jamlanmasi.',
+      ru: 'Ассорти из свежеиспеченных традиционных лепешек, патыра и слоеного хлеба из тандыра.',
+      en: 'A rich assortment of freshly baked tandoor breads, flaky patir, and traditional flatbreads.',
+    },
+    price: 25000,
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'Assorti', ru: 'Ассорти', en: 'Assorted' },
+    portion: { uz: 'Katta savat', ru: 'Большая корзина', en: 'Large basket' },
+  },
+  {
+    id: 'non-2',
+    name: {
+      uz: 'Chorak non',
+      ru: 'Четверть лепешки (Chorak)',
+      en: 'Chorak Quarter Bread',
+    },
+    category: 'non',
+    description: {
+      uz: 'Xorazmcha uslubda tandirda pishirilgan xushbo‘y chorak non.',
+      ru: 'Ароматная традиционная лепешка-чорак, испеченная в глиняном тандыре.',
+      en: 'Traditional fragrant quarter flatbread baked in a tandoor oven.',
+    },
+    price: 10000,
+    image: 'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+  {
+    id: 'non-3',
+    name: {
+      uz: 'Chorak non 0.5',
+      ru: 'Четверть лепешки 0.5',
+      en: 'Chorak Quarter Bread 0.5',
+    },
+    category: 'non',
+    description: {
+      uz: 'Yarim porsiyali xushbo‘y chorak tandir non.',
+      ru: 'Половина порции традиционной лепешки-чорак.',
+      en: 'Half portion of traditional tandoor chorak bread.',
+    },
+    price: 6000,
+    image: 'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '0.5 porsiya', ru: '0.5 порции', en: '0.5 portion' },
+  },
+  {
+    id: 'non-4',
+    name: {
+      uz: 'Patir',
+      ru: 'Патыр слоеный',
+      en: 'Traditional Butter Patir',
+    },
+    category: 'non',
+    description: {
+      uz: 'Sariyog‘ va sedana sepilgan qarsildoq qatlama shohona patir non.',
+      ru: 'Пышный слоеный сливочный патыр с посыпкой из черного седана.',
+      en: 'Flaky golden layered patir enriched with pure butter and black nigella seeds.',
+    },
+    price: 15000,
+    image: 'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80',
+    badge: { uz: 'Sariyog‘li', ru: 'Сливочный', en: 'Buttered' },
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+  {
+    id: 'non-5',
+    name: {
+      uz: 'Patir 0.5',
+      ru: 'Патыр слоеный 0.5',
+      en: 'Butter Patir 0.5',
+    },
+    category: 'non',
+    description: {
+      uz: 'Yarim porsiyali sariyog‘li qatlama patir non.',
+      ru: 'Половина порции сливочного слоеного патыра.',
+      en: 'Half portion of rich flaky butter patir.',
+    },
+    price: 8000,
+    image: 'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '0.5 porsiya', ru: '0.5 порции', en: '0.5 portion' },
+  },
+  {
+    id: 'non-6',
+    name: {
+      uz: 'Qizil non',
+      ru: 'Красная лепешка (Qizil non)',
+      en: 'Red Tandoor Bread (Qizil)',
+    },
+    category: 'non',
+    description: {
+      uz: 'Tandirda qizartirib pishirilgan maxsus xushxo‘r xonaki non.',
+      ru: 'Подрумяненная в тандыре традиционная золотисто-красная лепешка.',
+      en: 'Distinctive golden-red crust tandoor flatbread with deep aroma.',
+    },
+    price: 15000,
+    image: 'https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+  {
+    id: 'non-7',
+    name: {
+      uz: 'Qizil non 0.5',
+      ru: 'Красная лепешка 0.5',
+      en: 'Red Tandoor Bread 0.5',
+    },
+    category: 'non',
+    description: {
+      uz: 'Yarim porsiya qizartirilgan tandir non.',
+      ru: 'Половина порции румяной тандырной лепешки.',
+      en: 'Half portion of crisp golden-red flatbread.',
+    },
+    price: 8000,
+    image: 'https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '0.5 porsiya', ru: '0.5 порции', en: '0.5 portion' },
+  },
+  {
+    id: 'non-8',
+    name: {
+      uz: 'Qora non',
+      ru: 'Черный ржаной хлеб',
+      en: 'Dark Rye Bread',
+    },
+    category: 'non',
+    description: {
+      uz: 'Javdar unidan tayyorlangan xushbo‘y, foydali qora non.',
+      ru: 'Полезный ароматный хлеб из ржаной муки с хрустящей корочкой.',
+      en: 'Artisan dark rye bread with wholesome flavor and crisp crust.',
+    },
+    price: 8000,
+    image: 'https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+  {
+    id: 'non-9',
+    name: {
+      uz: 'Qora non 0.5',
+      ru: 'Черный ржаной хлеб 0.5',
+      en: 'Dark Rye Bread 0.5',
+    },
+    category: 'non',
+    description: {
+      uz: 'Yarim porsiya foydali javdar qora noni.',
+      ru: 'Половина порции ржаного черного хлеба.',
+      en: 'Half portion of dark rye bread.',
+    },
+    price: 4000,
+    image: 'https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '0.5 porsiya', ru: '0.5 порции', en: '0.5 portion' },
+  },
+  {
+    id: 'non-10',
+    name: {
+      uz: 'Buxanka',
+      ru: 'Хлеб буханка классический',
+      en: 'Classic Loaf Bread',
+    },
+    category: 'non',
+    description: {
+      uz: 'Klassik oq buxanka noni, mayin va yumshoq.',
+      ru: 'Классический белый формовой хлеб с воздушным мякишем.',
+      en: 'Classic soft white table loaf bread.',
+    },
+    price: 6000,
+    image: 'https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '1 dona', ru: '1 шт', en: '1 pc' },
+  },
+  {
+    id: 'non-11',
+    name: {
+      uz: 'Buxanka 0.5',
+      ru: 'Хлеб буханка 0.5',
+      en: 'Classic Loaf Bread 0.5',
+    },
+    category: 'non',
+    description: {
+      uz: 'Yarimta klassik buxanka noni.',
+      ru: 'Половина буханки классического белого хлеба.',
+      en: 'Half portion of white loaf bread.',
+    },
+    price: 3000,
+    image: 'https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=80',
+    portion: { uz: '0.5 porsiya', ru: '0.5 порции', en: '0.5 portion' },
+  },
+];

@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-stone: #EFE6D8;
+    --text-charcoal: #221D17;
+    --accent-brick: #8B3A2B;
+    --indigo-night: #232C4B;
+    --gold-detail: #B8863B;
+  }
+
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #EFE6D8;
+    color: #221D17;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+
+  input, textarea {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+
+  img {
+    -webkit-user-drag: none;
+    user-select: none;
+    pointer-events: auto;
+  }
+
+  h1, h2, h3, h4, .font-serif-arch {
+    font-family: 'Source Serif 4', Georgia, serif;
+  }
+}
+
+/* Subtle architectural stone texture pattern inspired by Khiva and Bukhara fortress masonry */
+.bg-qala-brick {
+  background-color: #EFE6D8;
+  background-image: 
+    radial-gradient(#221D17 0.65px, transparent 0.65px),
+    radial-gradient(#8B3A2B 0.65px, #EFE6D8 0.65px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+  background-opacity: 0.04;
+}
+
+/* Vaulted arch (iwan / peshtoq) clip path */
+.arch-top {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.arch-pointed {
+  border-top-left-radius: 120px 160px;
+  border-top-right-radius: 120px 160px;
+}
+
